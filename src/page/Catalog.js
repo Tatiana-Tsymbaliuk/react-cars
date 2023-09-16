@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { fetchForCatalog } from "../api/api"
 import CarsList from "../components/CarsList/CarsList"
+import ButtonLoadMore from "../components/ButtonLoadMore/ButtonLoadMore"
 const Catalog = () => {
         const [cars, setCars] = useState([]);
         //eslint-disable-next-line
@@ -21,7 +22,8 @@ console.log(cars);
               }, []);
         return(
         <div>
-        <CarsList cars={cars}/> 
+        <CarsList cars={cars}/>
+        <ButtonLoadMore/>
         </div>
                 
         )

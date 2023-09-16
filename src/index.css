@@ -13,3 +13,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.conteiner {
+  padding-right: 100px;
+  padding-left: 100px;
+  max-width: 1440px;
+}

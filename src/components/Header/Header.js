@@ -5,8 +5,8 @@ export const Header=()=>{
         <nav className= "Header">
                 <ul className = "Nav">
                 <li className="HomeLink"><NavLink to="/">Home</NavLink></li>
-                <li className="MoviesLink"><NavLink to = "/catalog">Catalog</NavLink></li>
-                <li className="MoviesLink"><NavLink to = "/favorites">Favorites</NavLink></li>
+                <li className="HomeLink"><NavLink to = "/catalog">Catalog</NavLink></li>
+                <li className="HomeLink"><NavLink to = "/favorites">Favorites</NavLink></li>
              </ul> 
              </nav>
         )

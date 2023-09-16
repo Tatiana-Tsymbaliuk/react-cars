@@ -5,6 +5,7 @@ import Home from "../page/Home";
 import Catalog from "../page/Catalog";
 import Favorites from "../page/Favorites";
 
+
 export const App = () => {
   return (
     <div>
