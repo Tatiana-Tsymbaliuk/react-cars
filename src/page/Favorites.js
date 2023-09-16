@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import AddCar from '../components/AddCar/AddCar'; // Імпортуємо компонент AdCard
+import CarsList from 'components/CarsList';
 import axios from 'axios';
 const FavoritesPage = () => {
   const [favoriteAds, setFavoriteAds] = useState([]);
@@ -26,22 +26,23 @@ const FavoritesPage = () => {
     
       {favoriteAds.length === 0 ? (
         <p>No favorite ads yet.</p>
-      ) : (
-        <div className="favorite-ads-list">
-          {favoriteAds.map((ad) => {
-                return(<ul key={ad.id}><li className="ImageGalleryItem"> 
-                      <img 
-                        src={ad.img} 
-                        alt={ad.model} 
-                    //     onClick={() => onImageClick(image.largeImageURL)}
-                        className='ImageGalleryItem-image'/>
+      ) : (<CarsList cars={favoriteAds}/>
+        // <div>
+        //   {favoriteAds.map((ad) => {
+        //         return(<ul key={ad.id}>
+        //                 <li className="ImageGalleryItem"> 
+        //               <img 
+        //                 src={ad.img} 
+        //                 alt={ad.model} 
+        //             //     onClick={() => onImageClick(image.largeImageURL)}
+        //                 className='ImageGalleryItem-image'/>
                         
-                         <div>{ad.model}{ad.year}{ad.rentalPrice}</div>
-                         {/* <div><Button/></div> */}
-                      </li> </ul>)
+        //                  <div>{ad.model}{ad.year}{ad.rentalPrice}</div>
+        //                  {/* <div><Button/></div> */}
+        //               </li> </ul>)
             
-        })}
-        </div>
+        // })}
+        // </div>
       )}
     </div>
   );
