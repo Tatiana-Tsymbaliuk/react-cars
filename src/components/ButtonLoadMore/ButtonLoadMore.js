@@ -1,11 +1,11 @@
 import React from 'react';
 import '../ButtonLoadMore/ButtonLoadMore.css'
 
-const ButtonLoadMore =({onLoadFoto})=>{
+const ButtonLoadMore =({onLoadMore})=>{
         return (
                 <button type="button" 
                 className="ButtonLoad"
-                onClick ={onLoadFoto}>Load more</button> 
+                onClick ={onLoadMore}>Load more</button> 
         )
 }
 

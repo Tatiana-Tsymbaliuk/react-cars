@@ -15,13 +15,6 @@ const CarsList = ({cars}) =>{
                 )
            })}     
         </ul>
-
-        {/* <ul>
-        {cars.map(({id, model})=> (
-                       <Link to={(`/cars/${id}`)}><li key ={id}>{model}</li></Link>
-                      
-                        ))}     
-                </ul> */}
                 </div>
         )
 }

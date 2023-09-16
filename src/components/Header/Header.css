@@ -12,8 +12,10 @@
         
 }
 .HomeLink{
-        color: #ed9bb7;;
-        outline: none;
-        font-family: Manrope;
-        font-size: 22px;
+        text-decoration: none;
+	flex-grow: 1;
+	font-weight: 900;
+        line-height: 24px; 
+	
+	color: white;
 }
