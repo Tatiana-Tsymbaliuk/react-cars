@@ -27,32 +27,27 @@ const CarsListItem = ({ car }) => {
     setIsModalOpen(false);
   };
   return (
-    <li className="CarsListItem">
-      <AddCar className="AddCar" car={car} />
-      <img
-        src={car.img}
-        alt={car.model}
-        //     onClick={() => onImageClick(image.largeImageURL)}
-        className="CarsListItem-image"
-      />
+    <li className="carsListItem">
+      <AddCar className="addCar" car={car} />
+      <img src={car.img} alt={car.model} className="carsListItem-image" />
 
-      <div className="ItemContainer">
-        <div className="ItemContainerTitlePrice">
-          <h2 className="ItemTitle">
+      <div className="itemContainer">
+        <div className="itemContainerTitlePrice">
+          <h2 className="itemTitle">
             {car.make} {car.model}, {car.year}
           </h2>
-          <h2 className="ItemPrice">{car.rentalPrice}</h2>
+          <h2 className="itemPrice">{car.rentalPrice}</h2>
         </div>
 
-        <ul className="ItemInfo">
-          <li className="ItemInfoItem">{getCity(car.address)}</li>
-          <li className="ItemInfoItem">{getCountry(car.address)}</li>
-          <li className="ItemInfoItem">{car.rentalCompany}</li>
-          <li className="ItemInfoItem">Premium</li>
-          <li className="ItemInfoItem">{car.type}</li>
-          <li className="ItemInfoItem">{car.model}</li>
-          <li className="ItemInfoItem">{car.id}</li>
-          <li className="ItemInfoItemLast">{car.accessories[2]}</li>
+        <ul className="itemInfo">
+          <li className="itemInfoItem">{getCity(car.address)}</li>
+          <li className="itemInfoItem">{getCountry(car.address)}</li>
+          <li className="itemInfoItem">{car.rentalCompany}</li>
+          <li className="itemInfoItem">Premium</li>
+          <li className="itemInfoItem">{car.type}</li>
+          <li className="itemInfoItem">{car.model}</li>
+          <li className="itemInfoItem">{car.id}</li>
+          <li className="itemInfoItemLast">{car.accessories[2]}</li>
         </ul>
         <Button openModal={openModal} />
         <Modal isOpen={isModalOpen} onClose={closeModal} car={car} />

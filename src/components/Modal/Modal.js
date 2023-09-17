@@ -66,36 +66,36 @@ const Modal = ({ isOpen, onClose, car }) => {
           //     onClick={() => onImageClick(image.largeImageURL)}
           className="carsListItemModal-image"
         />
-        <div className="itemContainer">
+        <div className="itemContainerModal">
           <div className="itemContainerTitlePrice">
             <h2 className="itemTitleModal">
               {car.make} {car.model}, {car.year}
             </h2>
-            <h2 className="itemPrice">{car.rentalPrice}</h2>
+            <h2 className="itemPriceModal">{car.rentalPrice}</h2>
           </div>
-          <ul className="itemInfo">
-            <li className="itemInfoItem">{getCity(car.address)}</li>
-            <li className="itemInfoItem">{getCountry(car.address)}</li>
-            <li className="itemInfoItem">{car.rentalCompany}</li>
-            <li className="itemInfoItem">Premium</li>
-            <li className="itemInfoItem">{car.type}</li>
-            <li className="itemInfoItem">{car.model}</li>
-            <li className="itemInfoItem">{car.id}</li>
-            <li className="itemInfoItemLast">{car.accessories[2]}</li>
+          <ul className="itemInfoModal">
+            <li className="itemInfoItemModal">{getCity(car.address)}</li>
+            <li className="itemInfoItemModal">{getCountry(car.address)}</li>
+            <li className="itemInfoItemModal">{car.rentalCompany}</li>
+            <li className="itemInfoItemModal">Premium</li>
+            <li className="itemInfoItemModal">{car.type}</li>
+            <li className="itemInfoItemModal">{car.model}</li>
+            <li className="itemInfoItemModal">{car.id}</li>
+            <li className="itemInfoItemLastModal">{car.accessories[2]}</li>
           </ul>
           <div>
             <p className="itemDescription">{car.description}</p>
           </div>
           <div className="itemAccessoriesInfo">
             <p className="itemAccessories">Accessories and functionalities:</p>
-            <ul className="itemInfo">
+            <ul className="itemInfoModal">
               {car.accessories.map(accessori => (
-                <li className="itemInfoItem">{accessori}</li>
+                <li className="itemInfoItemModal">{accessori}</li>
               ))}
             </ul>
-            <ul className="itemInfo">
+            <ul className="itemInfoModal">
               {car.functionalities.map(functionaliti => (
-                <li className="itemInfoItem">{functionaliti}</li>
+                <li className="itemInfoItemModal">{functionaliti}</li>
               ))}
             </ul>
           </div>
