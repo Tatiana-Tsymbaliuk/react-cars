@@ -14,7 +14,6 @@
 }
 .wellcomeImgContainer {
   max-width: 1000px;
-  max-height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,4 +21,11 @@
 }
 .wellcomeImg {
   max-width: 1000px;
+}
+.wellcomeInfo {
+  font-family: Manrope;
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  max-width: 90%;
 }
