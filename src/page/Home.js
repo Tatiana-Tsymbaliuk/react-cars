@@ -1,12 +1,11 @@
-
-
+import Wellcome from 'components/Wellcome/Wellcome';
 
 const Home = () => {
-
-return(
-        <div>Home jjjjjjjjjjjpage</div>
-)
-}
+  return (
+    <div>
+      <Wellcome />
+    </div>
+  );
+};
 
 export default Home;
-

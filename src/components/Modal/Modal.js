@@ -86,7 +86,7 @@ const Modal = ({ isOpen, onClose, car }) => {
           <div>
             <p className="itemDescription">{car.description}</p>
           </div>
-          <div>
+          <div className="itemAccessoriesInfo">
             <p className="itemAccessories">Accessories and functionalities:</p>
             <ul className="itemInfo">
               {car.accessories.map(accessori => (

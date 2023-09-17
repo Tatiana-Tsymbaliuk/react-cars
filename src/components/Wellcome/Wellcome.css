@@ -1,0 +1,25 @@
+.wellcomeContainer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wellcomeTitle {
+  font-family: Manrope;
+  font-size: 80px;
+  color: white;
+  font-weight: 700;
+  max-width: 100%;
+}
+.wellcomeImgContainer {
+  max-width: 1000px;
+  max-height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wellcomeImg {
+  max-width: 1000px;
+}

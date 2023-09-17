@@ -84,20 +84,19 @@
   list-style: none;
   padding: 0px;
   gap: 10px;
-  color: rgb(162, 157, 157);
+  color: rgb(135, 131, 131);
   font-size: 12px;
 }
 .itemInfoItem {
   font-size: 12px;
-  color: rgb(162, 157, 157);
-  border-right: 1px solid rgb(162, 157, 157);
+  color: rgb(135, 131, 131);
+  border-right: 1px solid rgb(220, 216, 216);
   padding-right: 10px;
 }
 .itemInfoItemLast {
   font-size: 12px;
-  color: rgb(162, 157, 157);
+  color: rgb(135, 131, 131);
   border-right: none;
-  padding-right: 10px;
 }
 .itemDescription {
   display: flex;
@@ -109,6 +108,11 @@
   line-height: 20px;
   margin: 0;
   width: 100%;
+}
+
+.itemAccessoriesInfo {
+  width: 100%;
+  height: 68px;
 }
 
 .itemAccessories {
@@ -124,7 +128,7 @@
 }
 
 .rentalDescr {
-  margin-bottom: 24px;
+  margin-top: 20px;
   height: 100px;
 }
 .rentalDescrTitle {
@@ -147,7 +151,7 @@
   font-weight: 200;
 }
 .rentalDescrArrayItem {
-  background-color: #f9f9f9;
+  background-color: #fbeaf0;
   border-radius: 35px;
   padding: 7px 14px;
 }
@@ -157,6 +161,7 @@
 }
 
 .rentCarBtn {
+  margin-top: 20px;
   height: 44px;
   width: 168px;
   border-radius: 12px;
