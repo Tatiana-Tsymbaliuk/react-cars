@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-cars/static/css/main.be3a403e.css",
-    "main.js": "/react-cars/static/js/main.665eabfb.js",
+    "main.css": "/react-cars/static/css/main.e376c892.css",
+    "main.js": "/react-cars/static/js/main.0b285146.js",
     "static/media/carWellcome.png": "/react-cars/static/media/carWellcome.f23ab850757ccff839db.png",
     "index.html": "/react-cars/index.html",
-    "main.be3a403e.css.map": "/react-cars/static/css/main.be3a403e.css.map",
-    "main.665eabfb.js.map": "/react-cars/static/js/main.665eabfb.js.map"
+    "main.e376c892.css.map": "/react-cars/static/css/main.e376c892.css.map",
+    "main.0b285146.js.map": "/react-cars/static/js/main.0b285146.js.map"
   },
   "entrypoints": [
-    "static/css/main.be3a403e.css",
-    "static/js/main.665eabfb.js"
+    "static/css/main.e376c892.css",
+    "static/js/main.0b285146.js"
   ]
 }
