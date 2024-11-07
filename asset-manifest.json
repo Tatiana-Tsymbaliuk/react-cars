@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-cars/static/css/main.ec76b42e.css",
-    "main.js": "/react-cars/static/js/main.26026f0d.js",
-    "static/css/98.bdd283d4.chunk.css": "/react-cars/static/css/98.bdd283d4.chunk.css",
-    "static/js/98.d85aaf98.chunk.js": "/react-cars/static/js/98.d85aaf98.chunk.js",
-    "static/css/252.43791998.chunk.css": "/react-cars/static/css/252.43791998.chunk.css",
-    "static/js/252.64413199.chunk.js": "/react-cars/static/js/252.64413199.chunk.js",
-    "static/css/622.9031ae0c.chunk.css": "/react-cars/static/css/622.9031ae0c.chunk.css",
-    "static/js/622.4bb21525.chunk.js": "/react-cars/static/js/622.4bb21525.chunk.js",
-    "static/js/858.57268ef4.chunk.js": "/react-cars/static/js/858.57268ef4.chunk.js",
+    "main.css": "/react-cars/static/css/main.fac4de9a.css",
+    "main.js": "/react-cars/static/js/main.e432bcf4.js",
+    "static/css/224.8f9b02ac.chunk.css": "/react-cars/static/css/224.8f9b02ac.chunk.css",
+    "static/js/224.18b16399.chunk.js": "/react-cars/static/js/224.18b16399.chunk.js",
+    "static/css/527.73b5532d.chunk.css": "/react-cars/static/css/527.73b5532d.chunk.css",
+    "static/js/527.d28b612a.chunk.js": "/react-cars/static/js/527.d28b612a.chunk.js",
+    "static/css/529.291f18fa.chunk.css": "/react-cars/static/css/529.291f18fa.chunk.css",
+    "static/js/529.38e9ae8a.chunk.js": "/react-cars/static/js/529.38e9ae8a.chunk.js",
+    "static/js/222.06ac8cf8.chunk.js": "/react-cars/static/js/222.06ac8cf8.chunk.js",
     "static/media/carWellcome.png": "/react-cars/static/media/carWellcome.f23ab850757ccff839db.png",
     "index.html": "/react-cars/index.html",
-    "main.ec76b42e.css.map": "/react-cars/static/css/main.ec76b42e.css.map",
-    "main.26026f0d.js.map": "/react-cars/static/js/main.26026f0d.js.map",
-    "98.bdd283d4.chunk.css.map": "/react-cars/static/css/98.bdd283d4.chunk.css.map",
-    "98.d85aaf98.chunk.js.map": "/react-cars/static/js/98.d85aaf98.chunk.js.map",
-    "252.43791998.chunk.css.map": "/react-cars/static/css/252.43791998.chunk.css.map",
-    "252.64413199.chunk.js.map": "/react-cars/static/js/252.64413199.chunk.js.map",
-    "622.9031ae0c.chunk.css.map": "/react-cars/static/css/622.9031ae0c.chunk.css.map",
-    "622.4bb21525.chunk.js.map": "/react-cars/static/js/622.4bb21525.chunk.js.map",
-    "858.57268ef4.chunk.js.map": "/react-cars/static/js/858.57268ef4.chunk.js.map"
+    "main.fac4de9a.css.map": "/react-cars/static/css/main.fac4de9a.css.map",
+    "main.e432bcf4.js.map": "/react-cars/static/js/main.e432bcf4.js.map",
+    "224.8f9b02ac.chunk.css.map": "/react-cars/static/css/224.8f9b02ac.chunk.css.map",
+    "224.18b16399.chunk.js.map": "/react-cars/static/js/224.18b16399.chunk.js.map",
+    "527.73b5532d.chunk.css.map": "/react-cars/static/css/527.73b5532d.chunk.css.map",
+    "527.d28b612a.chunk.js.map": "/react-cars/static/js/527.d28b612a.chunk.js.map",
+    "529.291f18fa.chunk.css.map": "/react-cars/static/css/529.291f18fa.chunk.css.map",
+    "529.38e9ae8a.chunk.js.map": "/react-cars/static/js/529.38e9ae8a.chunk.js.map",
+    "222.06ac8cf8.chunk.js.map": "/react-cars/static/js/222.06ac8cf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec76b42e.css",
-    "static/js/main.26026f0d.js"
+    "static/css/main.fac4de9a.css",
+    "static/js/main.e432bcf4.js"
   ]
 }
